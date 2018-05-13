@@ -4,4 +4,4 @@ COPY db/ /db
 ADD trader.py /app
 ADD balance.py /app
 RUN pip install requests
-CMD ["python","/app/trader.py"]
+#CMD ["python","/app/trader.py"]
